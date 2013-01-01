@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4379
+
+The matchparen plugin tries to do a good thing; namely, highlight the paren that matches the one under the cursor. However, my friends and I found that having two parentheses highlighted always confounds our intuition about where the cursor actually is.
+
+This plugin deals with this problem by setting cursorline and cursorcolumn when the cursor is on a paren.
+
+For screenshots and recent developments, see https://github.com/chreekat/vim-paren-crosshairs
